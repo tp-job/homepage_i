@@ -1,0 +1,58 @@
+.hero {
+    height: 700px;
+    padding: 120px 20px;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background: var(--bg-color_4);
+}
+
+.hero h5 {
+    margin: 20px;
+    font-size: 22px;
+}
+
+.hero h1 {
+    margin: 20px;
+    font-size: 90px;
+}
+
+.hero p {
+    margin-bottom: 60px;
+    font-size: 18px;
+}
+
+.hero button {
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.enquire-btn {
+    border: 2px solid var(--bg-color_6);
+    border-radius: 40px;
+    background: var(--bg-color_6);
+    padding: 20px 30px;
+    color: white;
+    font-size: 18px;
+}
+
+.our-services-btn {
+    border: 2px solid var(--bg-color_6);
+    border-radius: 40px;
+    background: var(--bg-color_4);
+    padding: 20px 30px;
+    color: var(--bg-color_6);
+    font-size: 18px;
+}
+
+.hero button:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.our-services-btn:hover {
+    background: var(--bg-color_6);
+    color: white;
+    transition: .3s;
+}

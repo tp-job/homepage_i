@@ -1,0 +1,44 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--bg-color_6);
+    padding: 80px;
+    width: 100%;
+    color: white;
+}
+
+.footer hr {
+    height: 2px;
+    background: white;
+    margin: 40px 0;
+}
+
+.footer h4 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    font-size: 42px;
+}
+
+.footer li {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.footer-top,
+.footer-bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 200px;
+    gap: 20px;
+}
+
+.footer li:hover {
+    transform: scale(1.1);
+    transition: .3s;
+    margin-left: 40px;
+
+}

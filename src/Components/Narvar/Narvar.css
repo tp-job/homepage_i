@@ -1,0 +1,31 @@
+.narvar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background: var(--bg-color_4);
+}
+
+.narvar-logo {
+    display: flex;
+    font-size: 38px;
+    color: rgb(255, 255, 255);
+}
+
+.narvar-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.narvar-menu li:hover {
+    transform: scale(1.1);
+    color: var(--bg-color_6);
+    border-bottom: 2px solid var(--bg-color_6);
+    transition: .3s;
+}
